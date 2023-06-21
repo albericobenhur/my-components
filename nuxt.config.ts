@@ -1,4 +1,4 @@
-import { aliases, mdi } from 'vuetify/iconsets/mdi'
+// import { aliases, mdi } from 'vuetify/iconsets/mdi'
 
 const theTheme = {
   dark: false,
@@ -61,13 +61,13 @@ export default defineNuxtConfig({
           location: 'top',
         },
       },
-      icons: {
-        defaultSet: 'mdi',
-        aliases,
-        sets: {
-          mdi,
-        },
-      },
+      // icons: {
+      //   defaultSet: 'mdi',
+      //   aliases,
+      //   sets: {
+      //     mdi,
+      //   },
+      // },
     },
     moduleOptions: {
       treeshaking: true,
